@@ -2,6 +2,7 @@ Löve Debug Graph
 ------------------
 
 A Löve2D graph tool for drawing FPS, memory or custom graphs.
+![](http://i.imgur.com/YiliXZQ.png)
 
 ## Usage
 
