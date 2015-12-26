@@ -1,4 +1,11 @@
--- Import the library
+Löve Debug Graph
+------------------
+
+A Löve2D graph tool for drawing FPS, memory or custom graphs.
+
+## Usage
+
+```lua
 debugGraph = require 'debugGraph'
 
 -- https://love2d.org/wiki/General_math
@@ -37,3 +44,16 @@ function love.keypressed(key)
     love.event.quit()
   end
 end
+```
+
+## Configuration
+
+Key      | Default       | Description
+------------------------------------------------------
+x        | 0             | The X position of the graph
+y        | 0             | The Y position of the graph
+width    | 50            | The graph width
+height   | 30            | The graph height
+delay    | 0.5           | The update delay in seconds
+label    | #graph type#  | The graph label
+font     | Vera Sans 8px | The label font
