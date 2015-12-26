@@ -28,7 +28,7 @@
 
 local debugGraph = {}
 
-function debugGraph:new(type, x, y, width, height, delay, draggable, label, font)
+function debugGraph:new(type, x, y, width, height, delay, label, font)
   if ({mem=0, fps=0, custom=0})[type] == nil then
     error('Acceptable types: mem, fps, custom')
   end
