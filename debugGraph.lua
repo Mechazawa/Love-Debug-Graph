@@ -119,7 +119,7 @@ function debugGraph:new(type, x, y, width, height, delay, label, font)
 
     -- Print the label
     if self.label ~= '' then
-      love.graphics.print(self.label, self.x, self.y + self.height - 8)
+      love.graphics.print(self.label, self.x, self.y + self.height - self.font:getHeight())
     end
 
     -- Reset the font
