@@ -49,7 +49,7 @@ end
 ## Configuration
 
 Key      | Default       | Description
-------------------------------------------------------
+---------|---------------|----------------------------
 x        | 0             | The X position of the graph
 y        | 0             | The Y position of the graph
 width    | 50            | The graph width
